@@ -1,0 +1,8 @@
+D:\Arsen\Studying KPI\visual projects\Laba3semestr2(part1prog)\Laba3semestr2(part1prog)\bin\Debug\Laba3semestr2(part1prog).exe.config
+D:\Arsen\Studying KPI\visual projects\Laba3semestr2(part1prog)\Laba3semestr2(part1prog)\bin\Debug\Laba3semestr2(part1prog).exe
+D:\Arsen\Studying KPI\visual projects\Laba3semestr2(part1prog)\Laba3semestr2(part1prog)\bin\Debug\Laba3semestr2(part1prog).pdb
+D:\Arsen\Studying KPI\visual projects\Laba3semestr2(part1prog)\Laba3semestr2(part1prog)\obj\Debug\Laba3semestr2(part1prog).csproj.AssemblyReference.cache
+D:\Arsen\Studying KPI\visual projects\Laba3semestr2(part1prog)\Laba3semestr2(part1prog)\obj\Debug\Laba3semestr2(part1prog).csproj.SuggestedBindingRedirects.cache
+D:\Arsen\Studying KPI\visual projects\Laba3semestr2(part1prog)\Laba3semestr2(part1prog)\obj\Debug\Laba3semestr2(part1prog).csproj.CoreCompileInputs.cache
+D:\Arsen\Studying KPI\visual projects\Laba3semestr2(part1prog)\Laba3semestr2(part1prog)\obj\Debug\Laba3semestr2(part1prog).exe
+D:\Arsen\Studying KPI\visual projects\Laba3semestr2(part1prog)\Laba3semestr2(part1prog)\obj\Debug\Laba3semestr2(part1prog).pdb
