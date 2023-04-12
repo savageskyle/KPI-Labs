@@ -1,48 +1,59 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Collections;
 
-namespace Laba1semestr2_Linq_
+class Laba1_semestr2
 {
-    internal class Program
+    public static void Main(string[] args)
     {
-        static void Main(string[] args)
+        /*Console.Write("Введiть кiлькiсть людей: ");
+        int n = Convert.ToInt32(Console.ReadLine());
+        ArrayList list = new ArrayList();
+
+        // Заповнюємо список людьми
+        for (int i = 1; i <= n; i++)
         {
-            try
-            {
-                Console.Write("Введiть кiлькiсть чисел: ");
-                int n = Convert.ToInt32(Console.ReadLine());
-                if(n>0)
-                {
-                    int[] numbers = new int[n];
-                    Console.WriteLine("введені числа: ");
-                    for (int i = 0; i < n; i++)
-                    {
-                        numbers[i] = Convert.ToInt32(Console.ReadLine());
-                    }
-
-                    var positiveNumbers = numbers.Where(m => m > 0);
-
-                    Console.WriteLine("позитивнi числа:");
-
-                    foreach (var num in positiveNumbers)
-                    {
-                        Console.Write($" {num}");
-                    }
-                }
-                else
-                {
-                    Console.WriteLine("число має бути більшим за нуль");
-                }
-                
-            }
-            catch (FormatException)
-            {
-                Console.WriteLine("Невірний формат");
-            }           
-            Console.ReadLine();
+            list.Add(i);
         }
+
+        int currentIndex = 0;
+
+        while (list.Count > 1)
+        {
+            // Видаляємо кожну другу людину
+            currentIndex = (currentIndex + 1) % list.Count;
+            list.RemoveAt(currentIndex);
+
+            // Якщо це була остання людина, завершуємо цикл
+            if (currentIndex == list.Count)
+            {
+                currentIndex = 0;
+            }
+        }
+
+        Console.WriteLine("Остання людина, що залишилась: " + list[0]);*/
+
+        Console.Write("Введiть кiлькiсть людей: ");
+        int n = Convert.ToInt32(Console.ReadLine());
+        LinkedList<int> list = new LinkedList<int>();
+
+        // Заповнюємо список людьми
+        for (int i = 1; i <= n; i++)
+        {
+            list.AddLast(i);
+        }
+
+        LinkedListNode<int> currentNode = list.First;
+
+        while (list.Count > 1)
+        {
+            // Видаляємо кожну другу людину
+            LinkedListNode<int> nextNode = currentNode.Next ?? list.First;
+            list.Remove(nextNode);
+
+            // Перехід до наступної людини
+            currentNode = currentNode.Next ?? list.First;
+        }
+
+        Console.WriteLine("Остання людина, що залишилась: " + list.First.Value);
     }
 }
