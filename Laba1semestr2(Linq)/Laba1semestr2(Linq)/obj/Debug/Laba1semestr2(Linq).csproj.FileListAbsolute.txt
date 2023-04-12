@@ -1,0 +1,8 @@
+D:\Arsen\Studying KPI\visual projects\Laba1semestr2(Linq)\Laba1semestr2(Linq)\bin\Debug\Laba1semestr2(Linq).exe.config
+D:\Arsen\Studying KPI\visual projects\Laba1semestr2(Linq)\Laba1semestr2(Linq)\bin\Debug\Laba1semestr2(Linq).exe
+D:\Arsen\Studying KPI\visual projects\Laba1semestr2(Linq)\Laba1semestr2(Linq)\bin\Debug\Laba1semestr2(Linq).pdb
+D:\Arsen\Studying KPI\visual projects\Laba1semestr2(Linq)\Laba1semestr2(Linq)\obj\Debug\Laba1semestr2(Linq).csproj.AssemblyReference.cache
+D:\Arsen\Studying KPI\visual projects\Laba1semestr2(Linq)\Laba1semestr2(Linq)\obj\Debug\Laba1semestr2(Linq).csproj.SuggestedBindingRedirects.cache
+D:\Arsen\Studying KPI\visual projects\Laba1semestr2(Linq)\Laba1semestr2(Linq)\obj\Debug\Laba1semestr2(Linq).csproj.CoreCompileInputs.cache
+D:\Arsen\Studying KPI\visual projects\Laba1semestr2(Linq)\Laba1semestr2(Linq)\obj\Debug\Laba1semestr2(Linq).exe
+D:\Arsen\Studying KPI\visual projects\Laba1semestr2(Linq)\Laba1semestr2(Linq)\obj\Debug\Laba1semestr2(Linq).pdb
