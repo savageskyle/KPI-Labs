@@ -1,13 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace Laba3semestr2_part1prog_
 {
     internal class Program
     {
+        static string Path = @"D:\Arsen\Studying KPI\visual projects\Laba3semestr2(part1prog)\tretiy.json";
         static void Main(string[] args)
         {
             Schedule schedule = new Schedule();
@@ -48,8 +53,22 @@ namespace Laba3semestr2_part1prog_
             {
                 Console.WriteLine("Помилка: {0}", e.Message);
             }
+
+            SerializeJSON(schedule, Path); 
+            var deserialized = DeserializeCounter(Path);
             Console.WriteLine();
             Console.ReadLine();
+        }
+        static void SerializeJSON(object obj, string path)
+        {
+            var jdaughter = JsonConvert.SerializeObject(obj);
+            File.WriteAllText(path, jdaughter);       
+        }
+        static Schedule DeserializeCounter(string path)
+        {
+            var objStr = File.ReadAllText(Path);
+
+            return JsonConvert.DeserializeObject<Schedule>(objStr);
         }
     }
     class ScheduleItem

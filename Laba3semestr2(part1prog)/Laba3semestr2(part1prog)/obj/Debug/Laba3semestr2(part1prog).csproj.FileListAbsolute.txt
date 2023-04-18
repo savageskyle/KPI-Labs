@@ -6,3 +6,6 @@ D:\Arsen\Studying KPI\visual projects\Laba3semestr2(part1prog)\Laba3semestr2(par
 D:\Arsen\Studying KPI\visual projects\Laba3semestr2(part1prog)\Laba3semestr2(part1prog)\obj\Debug\Laba3semestr2(part1prog).csproj.CoreCompileInputs.cache
 D:\Arsen\Studying KPI\visual projects\Laba3semestr2(part1prog)\Laba3semestr2(part1prog)\obj\Debug\Laba3semestr2(part1prog).exe
 D:\Arsen\Studying KPI\visual projects\Laba3semestr2(part1prog)\Laba3semestr2(part1prog)\obj\Debug\Laba3semestr2(part1prog).pdb
+D:\Arsen\Studying KPI\visual projects\Laba3semestr2(part1prog)\Laba3semestr2(part1prog)\bin\Debug\Newtonsoft.Json.dll
+D:\Arsen\Studying KPI\visual projects\Laba3semestr2(part1prog)\Laba3semestr2(part1prog)\bin\Debug\Newtonsoft.Json.xml
+D:\Arsen\Studying KPI\visual projects\Laba3semestr2(part1prog)\Laba3semestr2(part1prog)\obj\Debug\Laba3semestr2(part1prog).csproj.CopyComplete
