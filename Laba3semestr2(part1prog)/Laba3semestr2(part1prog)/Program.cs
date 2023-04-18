@@ -54,15 +54,16 @@ namespace Laba3semestr2_part1prog_
                 Console.WriteLine("Помилка: {0}", e.Message);
             }
 
-            SerializeJSON(schedule, Path); 
+            SerializeJSON(itemsAtLocation, Path); 
             var deserialized = DeserializeCounter(Path);
-            Console.WriteLine();
+            Console.WriteLine($"deserialized: ");
             Console.ReadLine();
         }
         static void SerializeJSON(object obj, string path)
         {
             var jdaughter = JsonConvert.SerializeObject(obj);
-            File.WriteAllText(path, jdaughter);       
+            File.WriteAllText(path, jdaughter);
+            Console.Write($"serialized:{jdaughter}");
         }
         static Schedule DeserializeCounter(string path)
         {
