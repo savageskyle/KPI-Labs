@@ -1,0 +1,8 @@
+D:\Arsen\Studying KPI\visual projects\Laba5semestr2\Laba5semestr2\bin\Debug\Laba5semestr2.exe.config
+D:\Arsen\Studying KPI\visual projects\Laba5semestr2\Laba5semestr2\bin\Debug\Laba5semestr2.exe
+D:\Arsen\Studying KPI\visual projects\Laba5semestr2\Laba5semestr2\bin\Debug\Laba5semestr2.pdb
+D:\Arsen\Studying KPI\visual projects\Laba5semestr2\Laba5semestr2\obj\Debug\Laba5semestr2.csproj.AssemblyReference.cache
+D:\Arsen\Studying KPI\visual projects\Laba5semestr2\Laba5semestr2\obj\Debug\Laba5semestr2.csproj.SuggestedBindingRedirects.cache
+D:\Arsen\Studying KPI\visual projects\Laba5semestr2\Laba5semestr2\obj\Debug\Laba5semestr2.csproj.CoreCompileInputs.cache
+D:\Arsen\Studying KPI\visual projects\Laba5semestr2\Laba5semestr2\obj\Debug\Laba5semestr2.exe
+D:\Arsen\Studying KPI\visual projects\Laba5semestr2\Laba5semestr2\obj\Debug\Laba5semestr2.pdb
